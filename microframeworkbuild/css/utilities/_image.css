@@ -1,0 +1,8 @@
+.img-square { border-radius: 0px; }
+.img-rounded { border-radius: calc(var(--base-unit) / 2); }
+.img-circle { border-radius: 1000px; }
+
+.img-full { width: 100%; }
+
+.img-grayscale { filter: grayscale(100%); }
+.img-sepia { filter: sepia(100%); }

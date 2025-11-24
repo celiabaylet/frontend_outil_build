@@ -1,0 +1,41 @@
+:root {
+
+	/* ⚪ LIGHT */
+	--light-3: hsl(0, 0%, 100%);
+	--light-2: hsl(0, 0%, 96%);
+	--light-1: hsl(0, 0%, 92%);
+	--light-contrast: var(--dark-2);
+
+	/* ⚫ DARK */
+	--dark-1: hsl(240, 17%, 26%);
+	--dark-2: hsl(240, 17%, 22%);
+	--dark-3: hsl(240, 17%, 18%);
+	--dark-contrast: var(--light-2);
+
+	/* ✨ PRIMARY */
+	--primary: #f77e52;
+	--primary-contrast: var(--light-2);
+
+	/* ✅ SUCCESS */
+	--success: #78ffcb;
+	--success-contrast: var(--dark-2);
+
+	/* ⚠️ WARNING */
+	--warning: #ffdb63;
+	--warning-contrast: var(--dark-2);
+
+	/* ❌ DANGER */
+	--danger: #ff5e78;
+	--danger-contrast: var(--light-2);
+
+	--typography-main: Arial, sans-serif;
+	--typography-headlines: Verdana, sans-serif;
+	--base-unit: 20px;
+	--ratio-line-height: 1.25;
+
+	--max-width: 1000px;
+
+	--transition-duration: 300ms;
+	--transition-type: ease;
+
+}

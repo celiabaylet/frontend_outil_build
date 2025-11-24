@@ -1,0 +1,53 @@
+:root {
+	--btn-color: var(--dark-2);
+	--btn-color-contrast: var(--light-2);
+}
+
+.dark {
+	--btn-color: var(--light-2);
+	--btn-color-contrast: var(--dark-2);
+}
+
+.btn {
+	border-radius: calc(var(--base-unit) / 4);
+	background-color: var(--btn-color);
+	color: var(--btn-color-contrast);
+	cursor: pointer;
+	display: inline-block;
+	padding: calc(var(--base-unit) * 0.625) calc(var(--base-unit) * 1);
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--btn-color);
+	outline: none;
+}
+
+.btn.is-outline {
+	color: var(--btn-color);
+	border-color: var(--btn-color);
+	background-color: transparent;
+}
+
+.btn.is-outline:hover {
+	color: var(--btn-color-contrast);
+	background-color: var(--btn-color);
+}
+
+.btn.is-primary {
+	--btn-color: var(--primary);
+	--btn-color-contrast: var(--primary-contrast);
+}
+
+.btn.is-success {
+	--btn-color: var(--success);
+	--btn-color-contrast: var(--success-contrast);
+}
+
+.btn.is-warning {
+	--btn-color: var(--warning);
+	--btn-color-contrast: var(--warning-contrast);
+}
+
+.btn.is-danger {
+	--btn-color: var(--danger);
+	--btn-color-contrast: var(--danger-contrast);
+}

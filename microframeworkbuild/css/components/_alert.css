@@ -1,0 +1,36 @@
+:root {
+	--alert-color: var(--dark-2);
+	--alert-color-contrast: var(--light-2);
+}
+
+.dark {
+	--alert-color: var(--light-2);
+	--alert-color-contrast: var(--dark-2);
+}
+
+.alert {
+	padding: calc(var(--base-unit) * 1.5);
+	border-radius: calc(var(--base-unit) / 2);
+	background-color: var(--alert-color);
+	color: var(--alert-color-contrast);
+}
+
+.alert.is-primary {
+	--alert-color: var(--primary);
+	--alert-color-contrast: var(--primary-contrast);
+}
+
+.alert.is-success {
+	--alert-color: var(--success);
+	--alert-color-contrast: var(--success-contrast);
+}
+
+.alert.is-warning {
+	--alert-color: var(--warning);
+	--alert-color-contrast: var(--warning-contrast);
+}
+
+.alert.is-danger {
+	--alert-color: var(--danger);
+	--alert-color-contrast: var(--danger-contrast);
+}
