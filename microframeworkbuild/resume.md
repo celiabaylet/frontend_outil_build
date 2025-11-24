@@ -1,5 +1,7 @@
 L’objectif de cet exercice est de créer **un outil de build Node.js** capable de générer automatiquement le **code CSS du framework Plugo** à partir d’un fichier de configuration `plugo.config.js`.
 
+Il faut effectuer cette commande : npm run build 
+
 🎨 Thème
 
 ✔️ Les couleurs dans theme.colors → déclinées automatiquement en clair/sombre
